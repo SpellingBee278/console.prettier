@@ -1,0 +1,11 @@
+button {
+
+    height: 250px;
+    width: 500px;
+    background-color:cornflowerblue ;
+    box-shadow: none;
+    border:none;
+    border-radius: 12px;
+
+
+}

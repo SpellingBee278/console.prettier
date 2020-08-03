@@ -37,10 +37,25 @@ console.dir(dir);
 console.time();
 
 function warn() {
-    console.warn("Roses are red. Violets are blue. Unexpected { at line 42.",);
-    {}
+    console.warn('Roses are red. Violets are blue. Unexpected { at line 42.');
+
 
 }
 warn();
 
+
 console.error("An error has occurred");
+
+function time() {
+
+    console.time("Looper");
+    console.timeEnd("Looper")
+
+}
+
+time();
+// spread console.log
+const tar = "Hello";
+const gar = "Hi";
+const par = "Howdy!";
+console.log(...tar, ...gar, ...par);
