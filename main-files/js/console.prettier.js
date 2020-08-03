@@ -1,9 +1,46 @@
 // variables
 var normal = "This is normal";
+let table = {
 
+    gHUser: "SpellingBee278",
+    pLanguage: "Javascript"
+
+
+};
+var foo = "foo";
+var bar = "bar";
+
+let dir = {
+
+    dir: "Direction",
+    dim: "Dark",
+    dip: "Put a little of sauce, mustard etc. on it"
+
+
+};
+// so this is getting to complex vars
+
+
+console.count('clicks');
+
+Math.pow(10, 20);
+
+console.count('clicks');
 
 // consoles
 console.log(normal);
-console.log('hello');
+console.table(table);
+// apparently i cant get assert working because its hard :/
+console.log({foo, bar});
+console.table({foo, bar});
+console.dir(dir);
+console.time();
 
-// this code should work, but then a bug happens on toast.log
+function warn() {
+    console.warn("Roses are red. Violets are blue. Unexpected { at line 42.",);
+    {}
+
+}
+warn();
+
+console.error("An error has occurred");
