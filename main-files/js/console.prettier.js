@@ -1,5 +1,5 @@
 // variables
-var normal = "This is normal";
+const normal = "This is normal";
 let table = {
 
     gHUser: "SpellingBee278",
@@ -7,8 +7,8 @@ let table = {
 
 
 };
-var foo = "foo";
-var bar = "bar";
+const foo = "foo";
+const bar = "bar";
 
 let dir = {
 
